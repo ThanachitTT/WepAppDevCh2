@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: rgba(138, 102, 47, 0.377);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    min-height: 100vh;
+    padding: 40px 0;
+    gap: 40px;      
+}
+
+.card {
+    background-color: #ffffff; 
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    border: 1px solid #e3e3e3;
+}
+
+.card img {
+    width: 100%;             
+    height: 100%;           
+    object-fit:cover;       
+    display: block;
+}
+
+.card .title {
+    font-size: 24px;
+    color: #111111;
+    font-weight: 500;
+    margin-top: 20px;       
+    margin-bottom: 8px;
+}
+
+.card .subtitle {
+    font-size: 13px;
+    color: #888888;
+    margin-bottom: 15px;
+}
+
+.card .university {
+    font-size: 12px;
+    color: #0d233a;
+    font-weight: bold;
+    margin-bottom: 25px; 
+}
+
+.card .contact {
+    display: block;
+    background-color: #000000; 
+    color: #ffffff;           
+    text-decoration: none;    
+    padding: 12px 0;          
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;       
+}
+
+/* Second Card */
+
+.card-sec {
+    background-color: #fcd59c27; 
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    border: 1px solid #e3e3e3;
+    border-radius: 24px;
+    padding: 30px 20px;
+}
+
+.img-sec {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgba(255, 255, 255, 0.7);
+    margin-top: 15px;
+}
+
+.title-sec {
+    font-size: 22px;
+    font-weight: 600;     
+    margin-bottom: 10px;
+}
+
+.desc-sec {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555555;
+    margin-bottom: 25px;
+}
+
+.location-sec {
+    font-size: 15px;
+    color: #888888;
+    margin-bottom: 10px;
+}
+
+.btn-sec {
+    display: block;
+    background-color: hsl(32, 93%, 24%);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 0;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 13px;
+}
