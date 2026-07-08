@@ -11,10 +11,9 @@ body {
     background-color: rgba(138, 102, 47, 0.377);
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     min-height: 100vh;
     padding: 40px 0;
-    gap: 40px;      
 }
 
 .card {
@@ -114,4 +113,15 @@ body {
     border-radius: 8px;
     font-weight: bold;
     font-size: 13px;
+}
+ 
+.switch-profile {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 10px 0;
 }
